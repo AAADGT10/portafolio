@@ -76,7 +76,7 @@
 .note--done .note__text{ text-decoration: line-through; color: var(--muted); }
 .note--done .note__check{ background: rgba(19,82,50,.18); border-color: rgba(19,82,50,.42); }
 .note--done .note__check::after{ content: ""; width: 10px; height: 6px; border-left: 2px solid var(--olive); border-bottom: 2px solid var(--olive); transform: rotate(-45deg); position: absolute; left: 10px; top: 12px; }
-  
+  /*Commit nuevo*/
 /* FOOTER */
 .footer{ background: radial-gradient(circle at top, rgba(201,94,22,0.22) 0%, rgba(201,94,22,0.14) 70%); padding: 54px 0 64px; position: relative; z-index: 2; color: rgba(0,0,0,0.78); overflow: hidden;}
 .footer__inner{ display: grid; gap: 10px; text-align: center; border-top: 1px solid rgba(19,82,50,0.12); padding-top: 26px;}

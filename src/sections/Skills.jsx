@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaWordpress } from "react-icons/fa";
 import { SiWoocommerce } from "react-icons/si";
 
 export default function Skills() {
-
+//Commit nuevo
     const skills = [
   { name: "HTML", icon: <FaHtml5 />, color: "#E34F26" },
   { name: "CSS", icon: <FaCss3Alt />, color: "#1572B6" },

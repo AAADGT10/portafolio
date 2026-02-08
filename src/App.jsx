@@ -2,7 +2,7 @@ import "./styles/tokens.css"
 import "./App.css"
 import "./styles/layout.css"
 import "./styles/components.css"
-
+//Commit nuevo
 import Header from "./components/Header"
 import Hero from "./sections/Hero"
 import Skills from "./sections/Skills"
