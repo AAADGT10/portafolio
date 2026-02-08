@@ -1,6 +1,6 @@
 import { HiOutlineMail } from "react-icons/hi";
 import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
-//Commit nuevo
+
 export default function Footer() {
   return (
     <footer className="footer" id="contacto">

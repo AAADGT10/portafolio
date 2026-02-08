@@ -1,5 +1,5 @@
 import imgDemo from "../assets/img-crud.jpg"
-//Commit nuevo
+
 export default function Projects() {
     return(
         <section className="section" id="proyectos">

@@ -1,5 +1,5 @@
 import avatarImg from "../assets/img-perfil.jpg"
-//Commit nuevo
+
 export default function Hero() {
     return (
         <section className="hero" id="inicio">

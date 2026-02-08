@@ -54,7 +54,7 @@ export default function Header() {
           ☰
         </button>
       </div>
-//Commit nuevo
+
       {isMenuOpen && (
         <div className="mobileMenuOverlay isOpen" role="dialog" aria-modal="true" aria-label="Menú móvil">
           <div className="mobileMenuBackdrop" onClick={() => setIsMenuOpen(false)}></div>
