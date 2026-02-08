@@ -1,5 +1,5 @@
 import { HiOutlineMail } from "react-icons/hi";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -30,7 +30,7 @@ export default function Footer() {
           </a>
           <a
             className="footer__link"
-            href="https://github.com"
+            href="https://github.com/AAADGT10"
             target="_blank"
             rel="noreferrer"
           >
@@ -38,6 +38,17 @@ export default function Footer() {
               <FaGithub />
             </span>
             <span>GitHub</span>
+          </a>
+          <a
+            className="footer__link"
+            href="https://wa.me/573105405093"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="footer__icon" style={{ color: "#25D366" }}>
+              <FaWhatsapp />
+            </span>
+            <span>WhatsApp</span>
           </a>
         </div>
 

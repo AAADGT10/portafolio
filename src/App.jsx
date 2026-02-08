@@ -9,6 +9,7 @@ import Skills from "./sections/Skills"
 import Projects from "./sections/Proyectos"
 import NotesDemo from "./sections/NotesDemo"
 import Footer from "./components/Footer"
+import WhatsappButton from "./components/WhastAppButon"
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
         <NotesDemo />
       </main>
       <Footer />
+      <WhatsappButton />
     </div>
   )
 }
