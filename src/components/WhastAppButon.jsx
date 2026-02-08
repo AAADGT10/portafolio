@@ -1,3 +1,5 @@
+// trigger vercel rebuild
+
 import { FaWhatsapp } from "react-icons/fa"
 
 export default function WhatsappButton() {
@@ -7,3 +9,4 @@ export default function WhatsappButton() {
     </a>
   )
 }
+

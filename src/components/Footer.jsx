@@ -28,7 +28,7 @@ export default function Footer() {
             </span>
             <span>LinkedIn</span>
           </a>
-          <a
+          <a 
             className="footer__link"
             href="https://github.com/AAADGT10"
             target="_blank"

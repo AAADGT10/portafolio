@@ -62,7 +62,7 @@ export default function Header() {
           <div className="mobileMenuCard mobileMenuCardFull isOpen">
             <button className="menuCloseBtn" onClick={() => setIsMenuOpen(false)} aria-label="Cerrar menú">
               ✕
-            </button> 
+            </button>  
 
             <div className="mobileMenuHead">
               <h2 className="mobileMenuName">Andrés Arrieta</h2>

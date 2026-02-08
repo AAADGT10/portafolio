@@ -5,7 +5,7 @@ export default function Hero() {
         <section className="hero" id="inicio">
             <div className="container hero__inner">
 
-                <div className="hero__content">
+                <div className="hero__content"> 
                     {/* Columna izquierda texto*/}
                     <p className="badge">Frontend · React · WordPress</p>
 
