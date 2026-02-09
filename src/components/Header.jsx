@@ -11,7 +11,7 @@ export default function Header() {
     function handleKeydown(e) {
       if (e.key === "Escape") setIsMenuOpen(false)
     }
-
+// Este es un comentario de mi nuevo portafolio
     if (isMenuOpen) {
       document.addEventListener("keydown", handleKeydown)
       document.body.style.overflow = "hidden"
