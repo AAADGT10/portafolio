@@ -1,10 +1,15 @@
 import imgDemo from "../assets/img-crud.jpg";
+import imgDemoxt from "../assets/screenshot-demoxt.jpg";
+import imgAcademic from "../assets/screenshot-academic.jpg";
+import imgCrowther from "../assets/screenshot-crowther.jpg";
+import imgMaquinantio from "../assets/screenshot-maquinantio.jpg";
+import imgCompliance from "../assets/screenshot-compliance.jpg";
 
 export default function Projects() {
   const projectsData = [
     {
       id: 1,
-      title: "Plataforma de Evaluación de Subsidios",
+      title: "PLATAFORMA DE EVALUACIÓN DE SUBSIDIOS",
       description: "Sistema web full-stack para gestión y evaluación de subsidios sociales. Desarrollado con Node.js, Express, React y base de datos MySQL.",
       image: imgDemo, // Puedes cambiar esta imagen por una de tu proyecto
       link: "https://github.com/AAADGT10/plataforma-subsidios", // Cambia por tu link real de GitHub o Demo
@@ -12,18 +17,42 @@ export default function Projects() {
     },
     {
       id: 2,
-      title: "Sitio Web WordPress 1",
-      description: "Desarrollo y diseño personalizado en WordPress, optimizado para rendimiento, diseño responsivo y SEO.",
-      image: imgDemo, // Reemplaza por la captura de pantalla del sitio
-      link: "https://tu-sitio-wordpress-1.com", // Cambia por el enlace real
+      title: "DEMOLITION SPECIALTIES",
+      description: "Desarrollo y diseño personalizado en WordPress desde cero basándome en un diseño en figma",
+      image: imgDemoxt, // Reemplaza por la captura de pantalla del sitio
+      link: "https://demotx.com", // Cambia por el enlace real
       buttonText: "Visitar Sitio"
     },
     {
       id: 3,
-      title: "Sitio Web WordPress 2",
+      title: "THE CROWTHER GROUP",
       description: "Implementación de sitio web corporativo en WordPress con gestión de contenidos e integración de herramientas.",
-      image: imgDemo, // Reemplaza por la captura de pantalla del sitio
-      link: "https://tu-sitio-wordpress-2.com", // Cambia por el enlace real
+      image: imgCrowther, // Reemplaza por la captura de pantalla del sitio
+      link: "https://thecrowthergroup.com", // Cambia por el enlace real
+      buttonText: "Visitar Sitio"
+    },
+    {
+      id: 3,
+      title: "OPEN ROAD COMPLIANCE",
+      description: "Implementación de sitio web corporativo en WordPress con gestión de contenidos e integración de herramientas.",
+      image: imgCompliance, // Reemplaza por la captura de pantalla del sitio
+      link: "https://openroadcompliance.com/", // Cambia por el enlace real
+      buttonText: "Visitar Sitio"
+    },
+    {
+      id: 3,
+      title: "MAQUINANTIO",
+      description: "Implementación de sitio web corporativo en WordPress con gestión de contenidos e integración de herramientas.",
+      image: imgMaquinantio, // Reemplaza por la captura de pantalla del sitio
+      link: "https://maquinantio.com.co/", // Cambia por el enlace real
+      buttonText: "Visitar Sitio"
+    },
+    {
+      id: 3,
+      title: "ACADEMIC PRODUCTIONS",
+      description: "Implementación de sitio web corporativo en WordPress con gestión de contenidos e integración de herramientas.",
+      image: imgAcademic, // Reemplaza por la captura de pantalla del sitio
+      link: "https://academicproductions.com/", // Cambia por el enlace real
       buttonText: "Visitar Sitio"
     }
   ];
