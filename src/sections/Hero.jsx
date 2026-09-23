@@ -15,7 +15,6 @@ export default function Hero() {
 
                     <div className="hero__cta">
                         <a className="btn btn--primary" href="#proyectos">Ver proyectos</a>
-                        <a className="btn btn--primary" href="#demo">Ir a la demo</a>
                     </div>
                 </div>
                 <div className="hero__card">
