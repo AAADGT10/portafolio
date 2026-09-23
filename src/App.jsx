@@ -19,7 +19,6 @@ export default function App() {
         <Hero />
         <Skills />
         <Projects />
-        <NotesDemo />
       </main>
       <Footer />
       <WhatsappButton />
