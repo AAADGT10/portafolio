@@ -1,17 +1,84 @@
-# React + Vite
+# Portafolio | Andres Arrieta
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portafolio personal donde presento quién soy, las tecnologías con las que trabajo y los proyectos que he desarrollado.
 
-Currently, two official plugins are available:
+🔗 **Demo en vivo:** https://portafolio-o8dnaaa.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<!-- Cuando tengas una captura del sitio, guárdala en src/assets y descomenta la línea de abajo -->
+<!-- ![Vista previa del portafolio](src/assets/preview.png) -->
 
-## React Compiler
+## Secciones
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Inicio:** presentación y llamada a la acción.
+- **Habilidades:** tecnologías organizadas por categoría (Frontend, Backend, Base de datos, Herramientas e IA), con filtros interactivos.
+- **Proyectos:** tarjetas con capturas y descripción de cada trabajo.
+- **Contacto:** botón flotante de WhatsApp y pie de página con enlaces.
 
-## Expanding the ESLint configuration
+## Tecnologías
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-trigger deploy
+- [React](https://react.dev/) con [Vite](https://vite.dev/)
+- [React Icons](https://react-icons.github.io/react-icons/) para los logos
+- CSS propio con tokens de diseño (variables CSS)
+- ESLint para mantener el código consistente
+- Despliegue en [Vercel](https://vercel.com/)
+
+## Estructura del proyecto
+
+```
+src/
+├── assets/          # Imágenes y capturas de proyectos
+├── components/      # Header, Footer, botón de WhatsApp
+├── sections/        # Hero, Habilidades, Proyectos, NotesDemo
+├── styles/          # tokens.css, layout.css, components.css
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+## Cómo ejecutarlo en local
+
+Requisitos: [Node.js](https://nodejs.org/) 18 o superior.
+
+```bash
+# 1. Clonar el repositorio
+git clone https://github.com/<tu-usuario>/<nombre-del-repo>.git
+cd <nombre-del-repo>
+
+# 2. Instalar dependencias
+npm install
+
+# 3. Iniciar el servidor de desarrollo
+npm run dev
+```
+
+Se abrirá en `http://localhost:5173`.
+
+### Otros comandos
+
+| Comando           | Qué hace                                  |
+| ----------------- | ----------------------------------------- |
+| `npm run build`   | Genera la versión de producción en `dist` |
+| `npm run preview` | Sirve localmente la versión de producción |
+| `npm run lint`    | Revisa el código con ESLint               |
+
+## Personalización
+
+- **Habilidades:** edita el arreglo `skills` en `src/sections/Skills.jsx`. Cada habilidad lleva nombre, icono, color y categoría.
+- **Proyectos:** edita `src/sections/Proyectos.jsx` y agrega las capturas en `src/assets`.
+- **Colores y tipografía:** cambia las variables en `src/styles/tokens.css`.
+
+## Despliegue
+
+El proyecto está conectado a Vercel: cada `push` a la rama principal genera un nuevo despliegue automáticamente.
+
+## Contacto
+
+- Portafolio: https://portafolio-o8dnaaa.vercel.app/
+- GitHub: https://github.com/<tu-usuario>
+- LinkedIn: <tu-enlace>
+- Correo: <tu-correo>
+
+---
+
+Hecho por Andres Arrieta.
