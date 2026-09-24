@@ -1,5 +1,5 @@
 import { HiOutlineMail } from "react-icons/hi";
-import { FaLinkedin, FaGithub, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaWhatsapp, FaDownload } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -49,6 +49,17 @@ export default function Footer() {
               <FaWhatsapp />
             </span>
             <span>WhatsApp</span>
+          </a>
+          <a
+            className="footer__link"
+            href="/CV_Andres_Arrieta.pdf"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <span className="footer__icon" style={{ color: "#000" }}>
+              <FaDownload />
+            </span>
+            <span>Descargar CV</span>
           </a>
         </div>
 

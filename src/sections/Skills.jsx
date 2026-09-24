@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { FaHtml5, FaCss3Alt, FaJs, FaReact, FaWordpress, FaNodeJs, FaGitAlt, FaGithub, FaAws } from "react-icons/fa";
-import { SiWoocommerce, SiExpress, SiMysql, SiClaude, SiGooglegemini } from "react-icons/si";
+import { SiWoocommerce, SiExpress, SiMysql, SiClaude, SiGooglegemini, SiPhp } from "react-icons/si";
 
 const CATEGORIES = ["Todas", "Frontend", "Backend", "Base de datos", "Herramientas", "IA"];
 
@@ -17,6 +17,7 @@ const skills = [
   { name: "Node.js", icon: <FaNodeJs />, color: "#5FA04E", category: "Backend" },
   // Express y GitHub son oscuros: usan el color de texto del tema para verse en fondo oscuro o claro
   { name: "Express.js", icon: <SiExpress />, color: "var(--text, #9ca3af)", category: "Backend" },
+  { name: "PHP", icon: <SiPhp />, color: "#21759B", category: "Backend" },
 
   // Base de datos
   { name: "MySQL", icon: <SiMysql />, color: "#4479A1", category: "Base de datos" },
