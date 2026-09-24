@@ -50,9 +50,9 @@ export default function Header() {
 
         <nav className="nav">
           <a href="#inicio">Inicio</a>
+          <a href="#inicio">Sobre mí</a>
           <a href="#habilidades">Habilidades</a>
           <a href="#proyectos">Proyectos</a>
-          <a href="#demo">Demo</a>
           <a href="#contacto">Contactos</a>
         </nav>
 

@@ -7,11 +7,11 @@ export default function Hero() {
 
                 <div className="hero__content"> 
                     {/* Columna izquierda texto*/}
-                    <p className="badge">Frontend · React · WordPress</p>
+                    <p className="badge">- SOBRE MÍ -</p>
 
-                    <h1 className="hero__title">Desarrollador Frontend enfocado en interfaces modernas y responsivas</h1>
+                    <h1 className="hero__title">Desarrollador Full-Stack</h1>
 
-                    <p className="hero__subtitle">Desarrollador WordPress con más de 4 años de experiencia en la creación, personalización y optimización de sitios webs.</p>
+                    <p className="hero__subtitle">Me enfoco en construir soluciones utilizando tecnologías como React, Node.js, Express y MySQL, además de contar con trayectoria en el desarrollo de sitios en WordPress. Apasionado por la arquitectura en la nube, actualmente amplío mis conocimientos en despliegue e infraestructura en AWS.</p>
 
                     <div className="hero__cta">
                         <a className="btn btn--primary" href="#proyectos">Ver proyectos</a>
