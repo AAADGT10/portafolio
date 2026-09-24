@@ -2,7 +2,7 @@
 
 Portafolio personal donde presento quién soy, las tecnologías con las que trabajo y los proyectos que he desarrollado.
 
-🔗 **Demo en vivo:** https://portafolio-o8dnaaa.vercel.app/
+🔗 **Demo en vivo:** https://portafolio-o8dnaaa.vercel.app/ https://d2zpwc0w70oab2.cloudfront.net/
 
 <!-- Cuando tengas una captura del sitio, guárdala en src/assets y descomenta la línea de abajo -->
 <!-- ![Vista previa del portafolio](src/assets/preview.png) -->
@@ -42,8 +42,8 @@ Requisitos: [Node.js](https://nodejs.org/) 18 o superior.
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/<tu-usuario>/<nombre-del-repo>.git
-cd <nombre-del-repo>
+git clone https://github.com/AAADGT10/portafolio.git
+cd portafolio
 
 # 2. Instalar dependencias
 npm install
@@ -75,9 +75,9 @@ El proyecto está conectado a Vercel: cada `push` a la rama principal genera un 
 ## Contacto
 
 - Portafolio: https://portafolio-o8dnaaa.vercel.app/
-- GitHub: https://github.com/<tu-usuario>
-- LinkedIn: <tu-enlace>
-- Correo: <tu-correo>
+- GitHub: https://github.com/AAADGT10/
+- LinkedIn: https://www.linkedin.com/in/andr%C3%A9s-arrieta-6099811b9/?isSelfProfile=true
+- Correo: andres.arrieta.d10@gmail.com
 
 ---
 
